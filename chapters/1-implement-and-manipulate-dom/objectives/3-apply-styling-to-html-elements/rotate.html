@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #orange1 {
+            height: 150px;
+            width: 225px;
+        }
+        .trans {transform: skew(10deg, 10deg);}
+    </style>
+    <script>
+        window.onload = function () {
+            document.getElementById("orange1").onclick = function () {
+                this.classList.add("trans");
+            }
+        }
+    </script>
+</head>
+<body>
+    <img id="orange1" src="orange.jpg" style="position: relative" />
+</body>
+</html>
