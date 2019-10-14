@@ -17,3 +17,5 @@ Behavioural
 [3. Implement exception handling](objectives/3-implement-exception-handling/3-implement-exception-handling.md)
 
 [4. Implement a callback (jquery/ajax)](objectives/4-implement-a-callback/4-implement-a-callback.md)
+
+[5. Implement a Web Worker](objectives/5-create-a-web-worker-process/5-create-a-web-worker-process.md)
