@@ -11,3 +11,5 @@ Behavioural
 - event or callback flow based on user engagement
 
 [1. Implement Program Flow](objectives/1-implement-program-flow/1-implement-program-flow.md)
+
+[2. Raise and handle an event](objectives/2-raise-and-handle-events/2-raise-and-handle-events.md)

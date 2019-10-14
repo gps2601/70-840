@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = onLoadHandler();
+        function onLoadHandler() {
+            alert('hello event')
+            document.getElementById('aRange').addEventListener("change", rangeChangedEvent);
+            document.getElementById('firstNameText').focus();
+            document.getElementById("firstNameText").addEventListener("blur", function () {
+                if(this.value.length < 5){
+                    document.getElementById("ruleViolation").innerText = 'First name must be 5 length'
+                    document.getElementById("ruleViolation").style.color = 'red';
+                    this.focus()
+                }
+            })
+
+            document.getElementById("firstNameText").addEventListener("keydown", function(){
+                document.getElementById("outputText").innerText = window.event.keyCode
+            })
+            document.getElementById('yellowbox').addEventListener('click', yellowBoxClick);
+        }
+
+        function rangeChangedEvent() {
+            document.getElementById("rangeValue").innerText = this.value;
+        }
+
+        function yellowBoxClick(){
+            document.write('Client X: ' + window.event.clientX + " ClientY:" + window.event.clientY);
+            document.write("<BR />")
+        }
+    </script>
+</head>
+<body onLoad=onLoadHandler()>
+    <input id="aRange" type="range" max="200" min="0" value="0"/>
+    <div id="rangeValue"></div>
+    <input type="text" id="firstNameText" value=""/>
+    <p id="ruleViolation"></p>
+    <p id="outputText"></p>
+    <div id="yellowbox" style="color: yellow;">Helo</div>
+</body>
+</html>
