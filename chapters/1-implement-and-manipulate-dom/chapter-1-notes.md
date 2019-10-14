@@ -5,3 +5,5 @@
 [2. Interact with UI controls](objectives/2-interact-with-ui-controls/2-interact-with-ui-controls.md)
 
 [3. Apply styling to HTML elements](objectives/3-apply-styling-to-html-elements/3-apply-styling-to-html-elements.md)
+
+[4. Implement HTML5 APIs](objectives/4-implement-html5-apis/4-implement-html5-apis.md)
