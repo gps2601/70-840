@@ -13,3 +13,5 @@ Behavioural
 [1. Implement Program Flow](objectives/1-implement-program-flow/1-implement-program-flow.md)
 
 [2. Raise and handle an event](objectives/2-raise-and-handle-events/2-raise-and-handle-events.md)
+
+[3. Implement exception handling](objectives/3-implement-exception-handling/3-implement-exception-handling.md)
