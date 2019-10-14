@@ -9,3 +9,5 @@
 [4. Implement HTML5 APIs](objectives/4-implement-html5-apis/4-implement-html5-apis.md)
 
 [5. Establish scope of objects](objectives/5-establish-scope-of-objects/5-establish-scope-of-objects.md)
+
+[6. Create objects and methods](objectives/6-create-objects-and-methods/6-create-object-and-methods.md)
