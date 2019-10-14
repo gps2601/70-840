@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function() {
+            var geolocator = window.navigator.geolocation;
+            var posOptions =  {
+                enableHighAccuracy: true,
+                timeout: 45000
+            };
+            geolocator.getCurrentPosition(successPosition, errorPosition, posOptions);
+            function successPosition(pos) {
+                alert(pos)
+                var sp = document.createElement("p");
+                sp.innerText = "Lattitude: " + pos.coords.latitude +
+                        " Longitude: " + pos.coords.longitude;
+                document.getElementById("geoResults").appendChild(sp);
+            }
+            function errorPosition(err) {
+                alert(err);
+                var sp = document.createElement("p");
+                sp.innerText = "error: " + err.message + " code: " + err.code;
+                document.getElementById("geoResults").appendChild(sp);
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="geoResults">
+        <p>Current location is:</p>
+    </div>
+</body>
+</html>
