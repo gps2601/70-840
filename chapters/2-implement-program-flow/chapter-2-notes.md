@@ -15,3 +15,5 @@ Behavioural
 [2. Raise and handle an event](objectives/2-raise-and-handle-events/2-raise-and-handle-events.md)
 
 [3. Implement exception handling](objectives/3-implement-exception-handling/3-implement-exception-handling.md)
+
+[4. Implement a callback (jquery/ajax)](objectives/4-implement-a-callback/4-implement-a-callback.md)
