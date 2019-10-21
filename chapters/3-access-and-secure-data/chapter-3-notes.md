@@ -8,5 +8,5 @@ Most web apps require static or dynamic data
 
 [2. Validate user input by using Javascript](objectives/2-validate-user-input-using-javascript/2-validate-user-input-using-javascript.md)
 
-
+[3. Consume Data](objectives/3-consume-data/3-consume-data.md)
 
