@@ -6,3 +6,5 @@ Notes for the html5/js/css3 70-840 exam!
 [Chapter 1 - Implement and manipulate document structures and objects](chapters/1-implement-and-manipulate-dom/chapter-1-notes.md)
 
 [Chapter 2 - Implement program flow](chapters/2-implement-program-flow/chapter-2-notes.md)
+
+[Chapter 3 - Access and secure data](chapters/3-access-and-secure-data/chapter-3-notes.md)
