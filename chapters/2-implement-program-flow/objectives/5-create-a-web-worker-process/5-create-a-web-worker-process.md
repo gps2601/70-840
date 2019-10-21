@@ -38,3 +38,4 @@ webWorker.onmessage = = function(event) { callback function code here}
  
  - DOM access. They operate on their own global context which means that they don't have access to the DOM.
  
+ - There is no limit on how many you can create, but generally a bad idea.
