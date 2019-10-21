@@ -10,3 +10,4 @@ Most web apps require static or dynamic data
 
 [3. Consume Data](objectives/3-consume-data/3-consume-data.md)
 
+[4. Serialize, deserialize, and transmit data](objectives/4-serialize-deserialize-transmit-data/4-serialize-deserialize-transmit-data.md)
