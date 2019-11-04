@@ -6,4 +6,6 @@
 
 [3. Create a flexible content layout](objectives/3-create-flexible-content-layout/3-create-a-flexible-content-layout.md)
 
+[4. Create an animated and adaptive UI](objectives/4-create-animated-adaptive-ui/4-create-animated-adaptive-ui.md)
+
 
